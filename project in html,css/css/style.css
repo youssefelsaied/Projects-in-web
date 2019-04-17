@@ -1,0 +1,496 @@
+/*480*/
+/* start default */
+.clear{clear: both;}
+.container{width: 1170px;margin: auto;}
+/* end default */
+
+/* start header*/
+.header{overflow: hidden;}
+ .slider {
+    background-image: url("../images/img.jpg");
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    height: 600px;
+}
+.header .intro{
+    overflow: hidden;
+    height: 600px;
+    padding-top: 250px;
+    text-align: center;
+    margin-left: 70px;
+    color: #D93175;
+}
+.header .intro span{ color: #2ecc71}
+.header .intro h2{
+font-size: 50px;
+margin: auto;
+margin-left: 280px;
+width: 600px;
+border-top: 4px solid #fff;
+border-bottom: 4px solid #fff;
+padding: 5px 0
+}
+.header .intro button{
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 15px;
+    width: 15%;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #D93175;
+    padding: 5px;
+    color:#D93175;
+}
+
+#hov:hover{ 
+    background-color:#D93175;
+     color: #fff;
+    }
+
+.header .nav{
+    background-color: #252f31;
+    color: #fff;
+    overflow: hidden;
+}
+.header .nav h2 {
+    padding-top: 10px;
+    text-transform: uppercase;
+    float: left;
+}
+.header .nav h2 span{
+    color:#2ecc71
+ }
+ .header .nav ul {
+    float: right;
+    padding-left: 0px; 
+    list-style: none;
+    overflow: hidden;
+}
+.header .nav ul li{
+    float: left;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.header .nav ul li a{
+color: #FFF;
+text-decoration-line:none; 
+}
+.header .nav ul li.active a{ color:#2ecc71; }
+.header .nav ul li a:hover{
+color:#2ecc71; 
+}
+/* end header*/
+/*start featuers*/
+.featuers{
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;     
+}
+.featuers .feat{
+    float: left;
+    width: 30%;
+    margin: 10px;
+}
+.featuers .feat h2{
+    text-transform: uppercase;
+color: #505c5f;
+}
+.featuers .feat p{
+    line-height:1.7;
+    color: #888;
+}
+/*End featuers*/
+/*start about me*/
+.about_me{
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+.image{
+    width: 40%;
+    float: left;
+    overflow: hidden;
+}
+.info{
+    margin: 10px 10px 0px 3%;
+    overflow: hidden;
+    width: 52%;
+    float: left;
+}
+.info > h2{
+margin: 40px 0 20px 55px;
+}
+.info p{
+    line-height: 1.7;
+margin: 0 0 20px 55px;
+}
+.image img{
+    width: 100%;
+}
+.cont{
+    overflow: hidden;
+}
+.web{
+    margin: 10px 0 10px 0px;
+    width: 45%;
+    float: left;
+}
+
+.cont .icon {
+    margin-top: 25px;
+    float: left;
+    width: 12%
+}
+.cont .icon img{
+width: 40px;
+height: 40px;
+}
+.cont .text{
+    float: left;
+    width: 88%;
+} 
+.web .text h2{
+    margin: 15px 0 5px 15px;
+} 
+.web .text p{
+    margin: 5px 0 0px 15px;
+} 
+
+
+/*start about me*/
+/*start skills*/
+.myskill{
+    margin: 0px 20px 0px 20px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    height: auto;
+    overflow: hidden;
+}
+.myskillleft{
+    text-align: left;
+    padding: 10px;
+width: 48%;
+    float: left;
+    overflow: hidden;
+}
+.myskillleft h2{
+margin-top: 0px;
+}
+.myskillleft p{
+line-height: 20px;
+}
+.myskillleft a{
+    display: inline-block;
+    padding: 12px 15px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #2ecc71;
+    border: #2ecc71 solid 1.5px;
+    cursor: pointer;
+    text-decoration-line: none;
+}
+.myskillleft a:hover{
+color: #f2f2f2;
+background-color: #2ecc71;
+}
+.myskillright{ 
+    text-align: left;
+    float: left;
+    width: 48%;
+    overflow: hidden;
+}
+.myskillright p{
+    margin: 10px 0 9px 5px;
+}
+.myskillright .main{
+    margin-left: 5px;
+background-color:  rgb(240, 236, 236);
+width: 250px;
+height: 16px;
+
+} 
+
+/*end skills*/
+/*start resume*/
+.resume{
+    background-color: #f2f2f2;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.resume h2{
+color: #4b4a4a;
+}
+.resume p{
+    line-height: 1.6;
+   padding-left: 150px;
+}
+.resume a{
+    display: inline-block;
+    padding: 12px 15px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #2ecc71;
+    border: #2ecc71 solid 1.5px;
+    cursor: pointer;
+    text-decoration-line: none;
+}
+.resume a:hover{
+color: #f2f2f2;
+background-color: #2ecc71;
+}
+/*end resume*/
+/*start myeducation*/
+.myeducation{
+    margin: 20px;
+    margin-top: 5px;    
+    padding-top: 0px;
+    padding-bottom: 30px;
+    height: auto;
+    overflow: hidden;
+}
+.myeducationleft{
+    text-align: left;
+    padding: 10px;
+width: 48%;
+    float: left;
+    overflow: hidden;
+}
+.myeducationleft h2{
+    color: #4b4a4a;
+
+}
+.myeducationright{
+    text-align: left;
+    float: left;
+    width: 48%;
+    overflow: hidden;
+
+}
+.myeducationright .const{
+margin-top: 75px;
+}
+
+.myeducationright .const span:first-of-type{
+    display:block;
+    color: #888;
+}
+
+.myeducationright .const span:last-of-type{
+    margin: 10px 0 10px 0;
+    display:inline-block;
+background-color: #2ecc71;
+padding: 3.5px;
+color: #f2f2f2;
+
+}
+/*end myeducation*/
+/*start myworkexp*/
+.myworkexp{
+    margin: 20px;
+    margin-top: 5px;    
+    padding-top: 0px;
+    padding-bottom: 30px;
+    height: auto;
+    overflow: hidden;
+}
+.myworkexpleft{
+    text-align: left;
+    padding: 10px;
+width: 48%;
+    float: left;
+    overflow: hidden;
+}
+.myworkexpleft h2{
+    color: #4b4a4a;
+
+}
+.myworkexpright{
+    text-align: left;
+    float: left;
+    width: 48%;
+    overflow: hidden;
+
+}
+.myworkexpright .const{
+margin-top: 75px;
+}
+
+.myworkexpright .const span:first-of-type{
+    display:block;
+    color: #888;
+}
+
+.myworkexpright .const span:last-of-type{
+    display:inline-block;
+    margin: 10px 0 10px 0;
+background-color: #2ecc71;
+padding: 3.5px;
+color: #f2f2f2;
+}
+/*end myworkexp*/
+/*start test*/
+.test{
+    background-color: #f2f2f2;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.test h3{
+    color: #777;
+    font-family: Arial, Tahoma;
+    font-weight: bold;
+    font-style: italic;
+} 
+.test ul{
+    padding: 0px;
+}
+.test ul li{
+    display: inline-block;
+    list-style: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: #2ecc71 1.5px solid;
+}
+.test ul .active,
+.test ul li:hover{ 
+    background-color: #2ecc71;
+}
+
+/*end test*/
+/*start portofilo */
+.portofilo{
+    padding: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.portofilo h2{
+    padding-top: 10px;
+    font-weight: bold;
+    font-family: Arial, Tahoma;
+color: #4b4a4a;
+
+}
+.portofilo .portofiloimages >div{
+    width: 33.3333%;
+    float: left;
+    margin-bottom: 10px;
+}
+.portofilo .portofiloimages >div img{
+    border: #ccc solid 1px;
+    background-color: #fff;
+    width: 92%;
+    padding: 2px;
+    margin: 10px;
+}
+/* end portofilo*/
+/*start contact*/
+.contact_me{
+    margin-top: 50px;
+    overflow: hidden;
+    background-color: #252f31;
+}
+.contact_me_left{
+    float: left;
+    padding-top: 30px;
+    width: 50%;
+}
+
+.contact_me h2{
+    margin: 0px;
+    color: #fff;
+}
+.contact_me_left p:first-of-type{
+   line-height: 1.4;
+    color: #6A6E71;
+}
+.emalp {
+    color: #fff;
+}
+.emalp span{
+    color:#6A6E71 ;
+}
+
+.contact_me_right{
+    padding-left: 5%;
+    padding-top: 30px;
+    float: left;
+    width: 45%;
+}
+.contact_me_right label{
+margin-bottom:5px;
+display:block;
+color: #fff;
+}
+.contact_me_right input{
+    margin-top: 5px;
+margin-bottom: 5px;
+color: #fff;
+border: 0px ;
+background-color: #4B5557;
+width: 70%;
+}
+.contact_me_right textarea{
+margin-bottom: 5px;
+margin-top: 5px;
+border: 0px ;
+background-color: #4B5557;
+color: #fff;
+height: 300px;
+width: 70%;
+}
+.contact_me_right button{
+    background-color: #191f20;
+    color: #fff;
+    border: 0px solid #d7dbdf;
+    padding: 15px 20px;
+    margin: 15px 0 15px 0;
+    display: block;
+
+}
+/*end contact*/
+/*start footer*/
+.footer{
+    overflow: hidden;
+    background-color: #191E22;
+    color: #6A6E71;
+padding: 7px 0;
+text-align: center;
+}
+.footer ul{
+margin-bottom: 0PX;
+   list-style: none;
+   padding: 0px;
+   margin-top: 10PX;
+}
+.footer ul li{
+    margin: 1px;
+    display: inline-block ;
+}
+.footer ul li img{
+    width: 24px;
+    height: 24px;
+}
+/*end footer*/
+/*my framwork*/
+
+.my_p{
+    color:#888;
+    line-height: 1.6;
+}
+
+.my_button{
+    padding: 12px 15px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #2ecc71;
+    border: #2ecc71 solid 1.5px;
+    cursor: pointer;
+}
+/*my framwork*/
